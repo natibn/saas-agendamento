@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "install": "npm install",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "test:integration": "jest --config jest.integration.config.js",
+    "build": "tsc",
+    "audit": "npm audit"
+  }
+}
